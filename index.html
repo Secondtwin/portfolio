@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i%7cMontserrat:300,400,700" rel="stylesheet">
+	<!-- Icon -->
+	<link rel="icon" href="./images/icon.png">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="./css/styles.medium-devices.css" />
+	<link rel="stylesheet" href="./css/styles.small-devices.css" />
+</head>
+
+<body>
+	<header>
+		<div id="menu">
+			<nav class="navbar">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#logo" id="logo">Dariia Kuzovkova</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#logo">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#skills">Skills</a>
+							</li>
+							<li>
+								<a href="#legend">Legenda</a>
+							</li>
+							<li>
+								<a href="#contact_me">Contacts</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+		</div>
+
+		<section id="welcome-text">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2>
+							<span>Welcome To My World!</span>
+						</h2>
+						<h1>nice to meet you</h1>
+						<a class="btn myBut1" href="#skills" role="button">See More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<ul id="slides">
+			<li class="slide showing"></li>
+			<li class="slide"></li>
+			<li class="slide"></li>
+		</ul>
+		<div class="buttons">
+			<button class="controls" id="previous"> <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+			</button>
+			<button class="controls" id="next">
+				<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+			</button>
+		</div>
+
+	</header>
+
+	<section id="skills">
+		<div class="container">
+			<div class="row text-center row-margin">
+				<h2>Skills</h2>
+				<p>
+					<span>My skills will surprise you for sure!</span>
+				</p>
+			</div>
+
+			<div class="row row-margin">
+				<div class="col-md-4 text-center col-margin">
+					<div class="border-icon">
+						<i class="fa fa-shopping-basket fa-3x" aria-hidden="true"></i>
+					</div>
+					<h4>Experience</h4>
+					<p>
+						A junior engineer with over 2 years experience in software development.
+						Experienced in leading teams, software development and software architecture.
+					</p>
+				</div>
+
+				<div class="col-md-4 text-center col-margin">
+					<div class="border-icon">
+						<i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+					</div>
+					<h4>Responsive Web</h4>
+					<p>
+						I follow-up on the most recent changes in web
+						development and I am very active in the open source environment.
+					</p>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<div class="border-icon">
+						<i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+					</div>
+					<h4>Performance</h4>
+					<p>
+						I have a great passion for responsive pages and also love to provide
+						optimization of sites and their performance.
+					</p>
+				</div>
+			</div>
+
+			<div class="row text-center row-margin" id="legend">
+				<h2>Legenda</h2>
+				<p>
+					<span>Something interesting about me</span>
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-margin">
+					<div class="content-image"></div>
+				</div>
+				<div class="col-md-6">
+					<h3>Me on the very very start</h3>
+					<p>
+						Hi! I am a junior software developer Dariia. Some time ago I set an aim for myself to become a programmer
+						because I feel so passionate about programming. So 6 month ago I have started free courses that grow me as a
+						Front-End developer.
+					</p>
+					<br>
+					<h3>First success</h3>
+					<p>
+						I think that my firs success is my job that pushes me to become more experienced, gives me a lot of
+						opportunities to grow and believes in me.
+					</p>
+					<br>
+					<h3>Best sides</h3>
+					<p>
+						My best assets are my creativity, my feeling with technology and my passion. I am great team player and
+						awesome teammate!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact_me">
+		<div class="container">
+			<div class="row text-center">
+				<h2>Contact me</h2>
+				<p>
+					<span>Let`s get in touch!</span>
+				</p>
+			</div>
+			<form action="https://formspree.io/dariia.kuzovkova@gmail.com" method="POST" id="contact-me-form">
+				<div class="row">
+					<div class="col-md-5 col-md-offset-1">
+
+						<input class="form-control" name="name" id="exampleInputName" placeholder="YOUR NAME*" required>
+						<input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="YOUR-MAIL*"
+							required>
+						<input class="form-control" name="sub" id="exampleInputSubject" placeholder="SUBJECT"></div>
+
+					<div class="col-md-5">
+						<textarea class="form-control" id="exampleInputMessage" name="text" rows="5" placeholder="YOUR MESSAGE*"
+							required maxlength="350"></textarea>
+					</div>
+
+					<div class="col-xs-12 text-center">
+						<input class="btn myBut2" id="myBut" type="submit" data-target=".bd-example-modal-sm" value="Send"
+						onSubmit="return validateForm()"></div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-1">
+					<span>All rights reserved by</span><br>
+					<span><b>Dariia Kuzovkova</b></span>
+				</div>
+				<div class="col-sm-4 text-center">
+					<a href="https://twitter.com/">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+
+					<a href="https://www.facebook.com/">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa  fa-facebook fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+
+					<a href="https://www.pinterest.com/">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+
+					<a href="https://www.google.com/">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
